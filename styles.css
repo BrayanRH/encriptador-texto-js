@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(to right, #614385, #516395);
+}
+
+.titulo{
+    margin: 0 0 10px;
+    padding: 10px 0;
+    background: rgba(76, 53, 101, 0.1);
+}
+
+.titulo h1{
+    margin: 0 0 10px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 35px;
+}
+
+.texto-principal{
+    width: 60%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-desencriptado{
+    width: 30%;
+    padding: 30px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    margin-bottom: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: rgba(46, 45, 45, 0.15);
+    box-shadow: 5px 5px 10px 10px rgba(22, 22, 22, 0.2);
+    color: aliceblue;   
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.container-button{
+    margin: 5px 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    margin: 0 10px;
+    font-size: 14px;
+    background: rgba(46, 45, 45, 0.2);
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    width: 110px;
+    height: 45px;
+    transition: 0.3s;    
+    box-shadow: 1px 1px 10px 5px rgba(22, 22, 22, 0.25);
+}
+  
+.boton:hover{
+    font-size: 16px;
+    background-color: #951bb1b0;
+    box-shadow: 0 0 0 5px #982eb05f;
+    color: aliceblue;
+}
+
+.boton:active{
+    background-color: #1b70b1b0;
+    box-shadow: 0 0 0 5px #1b70b17f;
+    transition: 0.1s;
+}

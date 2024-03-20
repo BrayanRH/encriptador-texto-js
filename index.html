@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Challenge - Encriptador</title>
+</head>
+<body>
+    <header class="titulo">
+        <h1>Encriptador de Texto con JS - ONE</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="texto-principal">
+                <textarea class="texto" id="textoUsuario" cols="85" rows="25" placeholder="Solo se aceptan letras minusculas!"></textarea>
+                <div class="container-button">
+                    <button class="boton" onclick="textoUsuarioEncriptar();">Encriptar</button>
+                    <button class="boton" onclick="textoUsuarioDesencriptar();">Desencriptar</button>
+                </div>
+            </div>
+            <div class="texto-desencriptado">
+                <textarea class="texto" id="textoEncriptado" cols="50" rows="25" placeholder="Texto Encriptado/Desencriptado" disabled></textarea>
+                <div class="container-button">
+                    <button class="boton" onclick="copiarTexto();">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
